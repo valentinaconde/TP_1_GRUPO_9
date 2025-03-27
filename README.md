@@ -14,10 +14,10 @@ Ejercicio1 y otro llamado Ejercicio2.
 ### EJERCICIO 1:
 1. Todas las clases pertenecientes a este ejercicio se crearán dentro del 
 paquete llamado Ejercicio1
-2. Crear una clase Empleado con las siguientes propiedades:
-int id;
-String nombre;
-int edad;
+2. Crear una clase Empleado con las siguientes propiedades:<br>
+int id;<br>
+String nombre;<br>
+int edad;<br>
 3. Aplicar el concepto de encapsulación dentro de la clase Empleado
 4. El Id del Empleado debe ser generado automáticamente a partir de la clase, 
 el primer ID será el número 1000 e irá incrementando en 1 por cada nuevo 
@@ -26,12 +26,12 @@ constructor de la clase. Una vez que se le asigne un ID del Empleado, este no
 podrá ser modificado, por lo que el ID debe ser una variable constante (usar 
 final para crear la constante)
 Ejemplo: A continuación, creamos un empleado y como verán no asignamos 
-su ID, este ID se deberá crear de manera interna a través del constructor.
-Empleado x = new Empleado();
-x.setNombre(“Jose”);
-x.setEdad(30);
-System.out.println(x.toString());
-//Se mostrará por consola: “Empleado Jose, edad:30, legajo:1000”;
+su ID, este ID se deberá crear de manera interna a través del constructor.<br>
+Empleado x = new Empleado();<br>
+x.setNombre(“Jose”);<br>
+x.setEdad(30);<br>
+System.out.println(x.toString());<br>
+//Se mostrará por consola: “Empleado Jose, edad:30, legajo:1000”;<br>
 5. La clase tendrá dos constructores.
 ✓
 El primer constructor será vacío y cargará por defecto en la variable nombre: 
