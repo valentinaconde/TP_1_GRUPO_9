@@ -8,11 +8,25 @@ public class Empleado {
 	//punto 4
 	static int cont=999;
 	
-	//constructor
+	//punto 5
+	//constructor 1
 	public Empleado()
 	{
 		cont++;
 		this.id = cont;
+
+		//valores por defecto
+		this.nombre = "sin nombre";
+		this.edad = 99;
+	}
+	// constructor 2
+	public Empleado(String nombre, int edad) {
+		cont++;
+		this.id = cont;
+		
+		//asignacion de parametros 
+		this.nombre = nombre;
+		this.edad = edad;
 	}
 		
 	//getters and setters 	
