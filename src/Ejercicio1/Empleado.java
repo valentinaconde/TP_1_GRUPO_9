@@ -35,5 +35,8 @@ public class Empleado {
 		this.edad = edad;
 	}
 	
-	
+	// Punto 6: Método estático que devuelve el próximo ID
+    public static int devuelveProximoID() {
+        return cont + 1;
+    }
 }
