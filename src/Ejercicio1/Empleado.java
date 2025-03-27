@@ -4,8 +4,18 @@ public class Empleado {
 	private int id;
 	private String nombre;
 	private int edad;
-	 
 	
+	//punto 4
+	static int cont=999;
+	
+	//constructor
+	public Empleado()
+	{
+		cont++;
+		this.id = cont;
+	}
+		
+	//getters and setters 	
 	public int getId() {
 		return id;
 	}
