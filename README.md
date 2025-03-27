@@ -1,17 +1,17 @@
-UNIVERSIDAD TECNOLOGICA NACIONAL 
+# UNIVERSIDAD TECNOLOGICA NACIONAL 
 FACULTAD REGIONAL GENERAL PACHECO
 TÉCNICO SUPERIOR EN PROGRAMACIÓN
 LABORATORIO DE COMPUTACIÓN IV
 
-TP 1
+## TP 1
 
-Ejercicios de consola
+### Ejercicios de consola
 IMPORTANTE:
 Para resolver estos ejercicios deberá crear un proyecto de consola JAVA con 
 el siguiente nombre: TP1_GRUPO_X. Crear dos paquetes uno llamado 
 Ejercicio1 y otro llamado Ejercicio2.
 
-EJERCICIO 1:
+### EJERCICIO 1:
 1. Todas las clases pertenecientes a este ejercicio se crearán dentro del 
 paquete llamado Ejercicio1
 2. Crear una clase Empleado con las siguientes propiedades:
