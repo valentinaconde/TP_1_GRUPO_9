@@ -53,4 +53,13 @@ public class Empleado {
     public static int devuelveProximoID() {
         return cont + 1;
     }
+    
+    //PUNTO 7: AGREGAR TOSTRING A CLASE EMPLEADO
+	@Override
+	public String toString() {
+		return "Empleado [ID=" + id + ", NOMBRE=" + nombre + ", EDAD=" + edad + "]";
+	}
+    
+    
+    
 }
